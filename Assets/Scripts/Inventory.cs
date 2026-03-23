@@ -32,6 +32,6 @@ public class Inventory : MonoBehaviour
         {
             shawarmaObject.SetActive(true); // 🔥 показываем шаурму
         }
-        shawarmaObject.transform.localPosition = new Vector3(0.5f, 0, 1f);
+        shawarmaObject.transform.localPosition = new Vector3(0.5f, 0.5f, 1f);
     }
 }
